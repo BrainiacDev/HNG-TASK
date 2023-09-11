@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header class="container-1">
+            <h1>My Slack Information</h1>
+        </header>
+        <main class="container-2">
+            <div>
+                <h3>My Profile Picture:</h3>
+                <img src="./images/Abdullateef.jpeg" alt="Wilson Oluwatomisin Michael"
+                    data-testid="slackDisplayImage" />
+            </div>
+            <h3 data-testid="slackUserName">
+                Slack username: Olasunkanmi Abdullateef
+            </h3>
+            <h3>Current day of the week : <span id="dayOfWeek"></span></h3>
+            <h3>
+                Current UTC Time : <span id="time" data-testid="currentUTCTime"></span>
+            </h3>
+            <h3 data-testid="myTrack">Track: Frontend</h3>
+        </main>
+        <footer>
+            <a href="https://github.com/WilsonTomisin/hng-task1" data-testid="githubURL" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        </footer>
+    </body>
+    <script src="main.js"></script>
+
+</html>
